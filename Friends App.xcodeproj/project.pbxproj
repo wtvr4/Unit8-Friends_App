@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9503FD62A8CF5D7006C7B33 /* BestfriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9503FD52A8CF5D7006C7B33 /* BestfriendsView.swift */; };
 		D9A6A8542A86839D00690734 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A8532A86839D00690734 /* Friend.swift */; };
 		D9A6A8562A86844100690734 /* Friends+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A8552A86844100690734 /* Friends+Sample.swift */; };
 		D9A6A8582A86858000690734 /* FriendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A8572A86858000690734 /* FriendManager.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9503FD52A8CF5D7006C7B33 /* BestfriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestfriendsView.swift; sourceTree = "<group>"; };
 		D9A6A8532A86839D00690734 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		D9A6A8552A86844100690734 /* Friends+Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friends+Sample.swift"; sourceTree = "<group>"; };
 		D9A6A8572A86858000690734 /* FriendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendManager.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				D9A6A8592A8686AA00690734 /* MainFriendsView.swift */,
+				D9503FD52A8CF5D7006C7B33 /* BestfriendsView.swift */,
 				D9A6A85B2A86870F00690734 /* FriendRowView.swift */,
 				D9A6A85D2A86871E00690734 /* FriendDetailView.swift */,
 				D9A6A85F2A86872C00690734 /* NewFriendView.swift */,
@@ -186,6 +189,7 @@
 				D9A6A85A2A8686AA00690734 /* MainFriendsView.swift in Sources */,
 				D9A6A8542A86839D00690734 /* Friend.swift in Sources */,
 				D9E7CC9A2A7BD4D900DF8093 /* ContentView.swift in Sources */,
+				D9503FD62A8CF5D7006C7B33 /* BestfriendsView.swift in Sources */,
 				D9A6A85C2A86870F00690734 /* FriendRowView.swift in Sources */,
 				D9E7CC982A7BD4D900DF8093 /* Friends_AppApp.swift in Sources */,
 				D9A6A8562A86844100690734 /* Friends+Sample.swift in Sources */,

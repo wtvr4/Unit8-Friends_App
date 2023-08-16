@@ -9,6 +9,10 @@ struct ContentView: View {
                 .tabItem{
                     Label("Friends", systemImage: "person.3")
                 }
+            BestfriendsView(friendManager: friendManger)
+                .tabItem{
+                    Label("Bestfriends", systemImage: "face.smiling.inverse")
+                }
         }
     }
 }
