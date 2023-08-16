@@ -8,6 +8,22 @@ class FriendManager: ObservableObject {
         }
     }
     
+    @Published var serchTerms = ""
+    
+    var todosFiltered: Binding<[Friend]> {
+        Binding (
+            get: {
+                if self.serchTerms == "" {return self.friends}
+                return self.friends.filter {
+                    $0.name.lowercased().contains(self.serchTerms.lowercased())
+                }
+            },
+            set:{
+                self.friends = $0
+            }
+        )
+        
+    }
     var numFriendsLeft : Int { friends.filter { !$0.isBestFriend }.count }
     var numFriendsDone : Int { friends.filter { $0.isBestFriend }.count }
 

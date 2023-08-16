@@ -10,6 +10,7 @@ struct MainFriendListView: View {
             List($friendManager.friends, editActions: [.all]) { $friend in
                 FriendRowView(friend: $friend)
             }
+            .searchable(text: $friendManager.serchTerms)
             .navigationTitle("Friends")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
