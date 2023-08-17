@@ -8,7 +8,7 @@ struct BestfriendsView: View {
                 .font(.largeTitle)
             Text("\(friendManager.numFriendsDone)")
                 .font(.system(size:140))
-                .foregroundColor(.accentColor)
+                .foregroundColor(.yellow)
                 .padding()
             Text("Bestfriends")
                 .font(.largeTitle)
